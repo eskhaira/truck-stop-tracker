@@ -1,6 +1,6 @@
 import "./App.css";
 
-function Truckstop({
+function TruckStop({
   name,
   location,
   rating,
@@ -20,10 +20,10 @@ function App() {
   return (
     <>
       <h1>Truck Stops</h1>
-      <Truckstop name="Flying J" location="Mississuaga(ON)" rating={4.5} />
-      <Truckstop name="Petro Pass" location="Nipigon(ON)" rating={4.0} />
-      <Truckstop name="Husky/Esso" location="Dryden(ON)" rating={2.0} />
-      <Truckstop name="Flying J" location="Regina(SK)" rating={3.5} />
+      <TruckStop name="Flying J" location="Mississuaga(ON)" rating={4.5} />
+      <TruckStop name="Petro Pass" location="Nipigon(ON)" rating={4.0} />
+      <TruckStop name="Husky/Esso" location="Dryden(ON)" rating={2.0} />
+      <TruckStop name="Flying J" location="Regina(SK)" rating={3.5} />
     </>
   );
 }
